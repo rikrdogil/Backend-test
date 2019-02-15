@@ -46,7 +46,7 @@ Para que seu teste tenha o mínimo necessário que atenda aos requisitos esperad
 - Utilize corretamente os códigos de retorno HTTP. Gostamos [dessa abordagem](https://developer.amazon.com/docs/amazon-drive/ad-restful-api-response-codes.html).
 - Manter uma estrutura de aplicação concisa e coerente. (Simples é melhor que complexo)
 - Sua aplicação e banco de dados devem conter uma implementação como container Docker.
-- Código escrito com base em algum padrão da linguagem que está utilizando. Ex: Em Python, temos o [pep8](https://www.python.org/dev/peps/pep-0008/), em PHP temos a [PSR2](https://www.php-fig.org/psr/psr-2/), em JavaScript temos [AirBnB Standards](https://github.com/airbnb/javascript) e o [Javascript Standards](https://standardjs.com/), etc.
+- Código escrito com base em algum padrão de convenções (style guide) da linguagem que está utilizando. Ex: Em Python, temos o [pep8](https://www.python.org/dev/peps/pep-0008/), em PHP temos a [PSR2](https://www.php-fig.org/psr/psr-2/), em JavaScript temos [AirBnB Standards](https://github.com/airbnb/javascript) e o [Javascript Standards](https://standardjs.com/), etc.
 - Utilizar padrões semânticos em mensagens de commit. (Gostamos do padrão de commits do repositório [AngularJS](http://karma-runner.github.io/3.0/dev/git-commit-msg.html))
 
 
