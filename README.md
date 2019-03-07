@@ -68,4 +68,4 @@ Para que seu teste tenha o mínimo necessário que atenda aos requisitos esperad
 - Fraco relacionamento entre colunas nas tabelas (falta de Foreign Key e Constraints).
 - Falta de organização de código.
 - Falta de documentação.
-- Histório de commits desorganizado e despadronizado.
+- Histórico de commits desorganizado e despadronizado.
