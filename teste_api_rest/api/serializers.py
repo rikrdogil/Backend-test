@@ -18,3 +18,18 @@ class ProdutoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Produto
         fields = ('id','nome', 'preco','categoria', 'categoria_id')
+
+    def validate(self, data):
+        
+        categoria = data['categoria']
+        produto = data['nome']
+
+
+        for c in categoria:
+            produto_data = Produto.objects.filter(categoria__nome__exact = c, nome__exact=produto).values_list('categoria__nome')
+
+        if produto_data:
+            raise serializers.ValidationError("Este produto já está cadastrado a categoria escolhida")
+        return data
+
+
